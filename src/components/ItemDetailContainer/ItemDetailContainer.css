@@ -1,0 +1,35 @@
+/* ItemDetailContainer.css */
+
+/* Estilos para el contenedor del detalle del producto */
+.ItemDetailContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+/* Estilos para el texto de carga */
+.LoadingText {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Estilos generales para botones */
+.Button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,66 @@
+/* ItemList.css */
+
+/* Estilos para la lista de productos */
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Estilos generales para los elementos de la lista */
+.CardItem {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    text-align: center;
+}
+
+/* Estilos para los encabezados de los elementos */
+.Header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las imágenes de los elementos */
+.ItemImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la información de los elementos */
+.Info {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces de los elementos */
+.Option {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.Option:hover {
+    color: #0056b3;
+}
+
+/* Estilos generales para botones */
+.Button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Button:hover {
+    background-color: #0056b3;
+}

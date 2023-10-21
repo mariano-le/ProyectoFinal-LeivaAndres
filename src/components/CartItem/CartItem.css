@@ -1,0 +1,46 @@
+/* CartItem.css */
+
+/* Estilos para el contenedor del ítem del carrito */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Estilos para la información del ítem */
+.item-info {
+    flex: 1;
+}
+
+.item-info p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Estilos para los botones de acciones */
+.item-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.item-actions button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el botón "Eliminar" */
+.item-actions button.delete-button {
+    background-color: #ff3b3b;
+}
+
+.item-actions button.delete-button:hover {
+    background-color: #ff0000;
+}

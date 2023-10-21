@@ -1,0 +1,49 @@
+/* Item.css */
+
+/* Estilos para el contenedor del artículo */
+.CardItem {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+/* Estilos para el encabezado del artículo */
+.Header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ItemHeader {
+    font-size: 1.5em;
+}
+
+/* Estilos para la imagen del artículo */
+.ItemImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la información del artículo */
+.Info {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el pie del artículo */
+.ItemFooter {
+    text-align: center;
+}
+
+/* Estilos para los enlaces */
+.Option {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.Option:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,44 @@
+/* ItemCount.css */
+
+/* Estilos para el contenedor del contador */
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Estilos para los controles de incremento y decremento */
+.Controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones de incremento y decremento */
+.Button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el número de cantidad seleccionada */
+.Number {
+    font-size: 1.2em;
+    margin: 0 10px;
+}
+
+/* Estilos para el botón "Agregar al carrito" */
+.Button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

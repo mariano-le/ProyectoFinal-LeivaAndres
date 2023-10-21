@@ -1,0 +1,43 @@
+/* CheckoutForm.css */
+
+/* Estilos para el contenedor del formulario de checkout */
+.Container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Estilos para las etiquetas y campos de entrada del formulario */
+.Label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón del formulario */
+.Button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Button:hover {
+    background-color: #0056b3;
+}

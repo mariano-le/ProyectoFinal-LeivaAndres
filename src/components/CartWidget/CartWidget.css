@@ -1,0 +1,36 @@
+/* CartWidget.css */
+
+/* Estilos para el contenedor del icono y la cantidad de elementos en el carrito */
+.CartWidget {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.CartWidget:hover {
+    color: #007bff;
+}
+
+/* Estilos para el icono del carrito */
+.CartWidget div {
+    margin-right: 5px;
+}
+
+/* Estilos para el icono de carrito */
+.CartWidget svg {
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+/* Estilos para la cantidad de elementos en el carrito */
+.CartWidget .item-count {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 0.9em;
+}
